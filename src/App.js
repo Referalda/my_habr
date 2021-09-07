@@ -1,16 +1,15 @@
 import React from 'react';
-import Header from './components/header/Header';
-import PostCard from './components/postCard/PostCard';
+import Post from './pages/post/Post';
+import PostList from './pages/postList/PostList';
 
 class App extends React.Component {
 
   render() {
       return (
-          <div>
-            <Header/>
-            <PostCard/>
-            <PostCard/>
-          </div>
+          <>
+            <Post/>
+            <PostList/>
+          </>
     )
   }
 }
