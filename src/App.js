@@ -7,8 +7,9 @@ class App extends React.Component {
   render() {
       return (
           <>
-            <Post/>
+            {/* <Post/> */}
             <PostList/>
+            
           </>
     )
   }
